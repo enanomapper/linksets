@@ -1,1 +1,33 @@
+@prefix : <https://raw.githubusercontent.com/enanomapper/linksets/master/enm-caNanoLab.void.ttl#>.
+@prefix dcat:      <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix freq:    <http://purl.org/cld/freq/> .
+@prefix pav:     <http://purl.org/pav/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix voag: <http://voag.linkedmodel.org/schema/voag#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
+# about this VoID file
+<> 
+    a void:DatasetDescription;
+    dcterms:title "eNanoMapper-caNanoLab material link set"@en;
+    dcterms:description 
+        """This link sets links materials from eNanoMapper and caNanoLab based on the fact that they have the same label and are described in the same journal article."""@en;
+    pav:createdBy <http://orcid.org/0000-0001-7542-0286> ;
+    pav:createdOn "2016-03-31T09:02:09Z"^^xsd:dateTime;
+    foaf:primaryTopic :enm-canlabLinkset.
+
+:enm-canlabLinkset a void:Linkset ;
+    dct:title "eNanoMapper to caNanoLab Linkset" ;
+    dct:description "Links from eNanoMapper to caNanoLab."@en ;
+    dct:publisher <http://www.bigcat.unimaas.nl/> ;
+    dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dct:dataDump <https://raw.githubusercontent.com/enanomapper/linksets/master/enm-caNanoLab.ls.ttl> ;
+    void:subjectsTarget :enm ;
+    void:linkPredicate skos:exactMatch ;
+    dul:expresses <http://purl.obolibrary.org/obo/CHEBI_59999> ;
+    pav:createdWith <https://github.com/> .
