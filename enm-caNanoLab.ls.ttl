@@ -1,1 +1,3 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> 
 
+<https://data.enanomapper.net/substance/NWKI-ede00e9f-201f-33c9-9191-8dbf67fcf1b1> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142322>
