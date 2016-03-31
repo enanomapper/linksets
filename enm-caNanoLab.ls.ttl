@@ -3,3 +3,5 @@
 <https://data.enanomapper.net/substance/NWKI-5adec23a-ab6a-350e-baec-cd088a4667d5> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142322>
 <https://data.enanomapper.net/substance/NWKI-ede00e9f-201f-33c9-9191-8dbf67fcf1b1> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142321>
 <https://data.enanomapper.net/substance/NWKI-9a13f473-8a29-32e4-9653-ec03f5fb8923> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142320>
+<https://data.enanomapper.net/substance/NWKI-c05becdf-4b9b-3599-9922-89235b2e10da> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142319>
+<https://data.enanomapper.net/substance/NWKI-0d776d00-aec4-3a75-9eb3-453909fc50ed> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142318>
