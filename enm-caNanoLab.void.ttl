@@ -31,3 +31,13 @@
     void:linkPredicate skos:exactMatch ;
     dul:expresses <http://purl.obolibrary.org/obo/CHEBI_59999> ;
     pav:createdWith <https://github.com/> .
+
+enm:
+      a       void:Dataset ;
+      dcterms:title "eNanoMapper instance at http://data.enanomapper.net/"@en ;
+      dcterms:publisher <http://www.enanomapper.net/> ;
+      dcat:landingPage <data.enanomapper.net/> ;
+      dcat:theme <http://purl.bioontology.org/ontology/npo#NPO_199> ;
+      void:exampleResource <https://data.enanomapper.net/substance/NWKI-aeeb6004-b180-3b01-a9ab-68b64e19011b> ;
+      void:uriSpace "http://data.enanomapper.net/"^^xsd:string ;
+      voag:frequencyOfChange freq:irregular .
