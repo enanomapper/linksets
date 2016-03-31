@@ -1,3 +1,5 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> 
 
-<https://data.enanomapper.net/substance/NWKI-ede00e9f-201f-33c9-9191-8dbf67fcf1b1> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142322>
+<https://data.enanomapper.net/substance/NWKI-5adec23a-ab6a-350e-baec-cd088a4667d5> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142322>
+<https://data.enanomapper.net/substance/NWKI-ede00e9f-201f-33c9-9191-8dbf67fcf1b1> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142321>
+<https://data.enanomapper.net/substance/NWKI-9a13f473-8a29-32e4-9653-ec03f5fb8923> skos:exactMatch <https://cananolab.nci.nih.gov/caNanoLab/#/sample?sampleId=9142320>
